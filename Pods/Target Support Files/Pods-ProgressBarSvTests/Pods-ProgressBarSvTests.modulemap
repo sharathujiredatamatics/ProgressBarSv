@@ -1,0 +1,6 @@
+framework module Pods_ProgressBarSvTests {
+  umbrella header "Pods-ProgressBarSvTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

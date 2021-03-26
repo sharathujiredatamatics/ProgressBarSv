@@ -14,6 +14,9 @@
 		4B8DEBE2260DEFD300057612 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B8DEBE0260DEFD300057612 /* LaunchScreen.storyboard */; };
 		4B8DEBED260DEFD300057612 /* ProgressBarSvTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DEBEC260DEFD300057612 /* ProgressBarSvTests.swift */; };
 		4B8DEBF8260DEFD300057612 /* ProgressBarSvUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DEBF7260DEFD300057612 /* ProgressBarSvUITests.swift */; };
+		62E792E08E27B7069DCDC12F /* Pods_ProgressBarSv.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40FC2EE45BBF2F1AAB7C8C7B /* Pods_ProgressBarSv.framework */; };
+		C4AE7AD9710CE3355C024235 /* Pods_ProgressBarSv_ProgressBarSvUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B16243FF1C4795859AD055C /* Pods_ProgressBarSv_ProgressBarSvUITests.framework */; };
+		D9417E529973F6C682282C1A /* Pods_ProgressBarSvTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D7255FCA37E076BF7ECA5F7 /* Pods_ProgressBarSvTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C0C9CD94D5F1FA36D5CDA6E /* Pods-ProgressBarSv.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProgressBarSv.release.xcconfig"; path = "Target Support Files/Pods-ProgressBarSv/Pods-ProgressBarSv.release.xcconfig"; sourceTree = "<group>"; };
+		391A391E103074521CCDC758 /* Pods-ProgressBarSvTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProgressBarSvTests.debug.xcconfig"; path = "Target Support Files/Pods-ProgressBarSvTests/Pods-ProgressBarSvTests.debug.xcconfig"; sourceTree = "<group>"; };
+		40FC2EE45BBF2F1AAB7C8C7B /* Pods_ProgressBarSv.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProgressBarSv.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B8DEBD4260DEFD200057612 /* ProgressBarSv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgressBarSv.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B8DEBD7260DEFD200057612 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B8DEBD9260DEFD200057612 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,12 @@
 		4B8DEBF3260DEFD300057612 /* ProgressBarSvUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProgressBarSvUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B8DEBF7260DEFD300057612 /* ProgressBarSvUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarSvUITests.swift; sourceTree = "<group>"; };
 		4B8DEBF9260DEFD300057612 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D7255FCA37E076BF7ECA5F7 /* Pods_ProgressBarSvTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProgressBarSvTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A0CCC353FE8C566BB692180 /* Pods-ProgressBarSv.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProgressBarSv.debug.xcconfig"; path = "Target Support Files/Pods-ProgressBarSv/Pods-ProgressBarSv.debug.xcconfig"; sourceTree = "<group>"; };
+		8B16243FF1C4795859AD055C /* Pods_ProgressBarSv_ProgressBarSvUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProgressBarSv_ProgressBarSvUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9834AF58E56CA4BB1A15BDB8 /* Pods-ProgressBarSv-ProgressBarSvUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProgressBarSv-ProgressBarSvUITests.release.xcconfig"; path = "Target Support Files/Pods-ProgressBarSv-ProgressBarSvUITests/Pods-ProgressBarSv-ProgressBarSvUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BFD4B124F326E63B97AFD2ED /* Pods-ProgressBarSv-ProgressBarSvUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProgressBarSv-ProgressBarSvUITests.debug.xcconfig"; path = "Target Support Files/Pods-ProgressBarSv-ProgressBarSvUITests/Pods-ProgressBarSv-ProgressBarSvUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C22594642D7FEE18EE3303D4 /* Pods-ProgressBarSvTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProgressBarSvTests.release.xcconfig"; path = "Target Support Files/Pods-ProgressBarSvTests/Pods-ProgressBarSvTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62E792E08E27B7069DCDC12F /* Pods_ProgressBarSv.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9417E529973F6C682282C1A /* Pods_ProgressBarSvTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4AE7AD9710CE3355C024235 /* Pods_ProgressBarSv_ProgressBarSvUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E08A8CB7E4233F937C31B28 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A0CCC353FE8C566BB692180 /* Pods-ProgressBarSv.debug.xcconfig */,
+				2C0C9CD94D5F1FA36D5CDA6E /* Pods-ProgressBarSv.release.xcconfig */,
+				BFD4B124F326E63B97AFD2ED /* Pods-ProgressBarSv-ProgressBarSvUITests.debug.xcconfig */,
+				9834AF58E56CA4BB1A15BDB8 /* Pods-ProgressBarSv-ProgressBarSvUITests.release.xcconfig */,
+				391A391E103074521CCDC758 /* Pods-ProgressBarSvTests.debug.xcconfig */,
+				C22594642D7FEE18EE3303D4 /* Pods-ProgressBarSvTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		4B8DEBCB260DEFD200057612 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +110,8 @@
 				4B8DEBEB260DEFD300057612 /* ProgressBarSvTests */,
 				4B8DEBF6260DEFD300057612 /* ProgressBarSvUITests */,
 				4B8DEBD5260DEFD200057612 /* Products */,
+				2E08A8CB7E4233F937C31B28 /* Pods */,
+				83D5A4D81B488341AA3D99E0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +156,16 @@
 			path = ProgressBarSvUITests;
 			sourceTree = "<group>";
 		};
+		83D5A4D81B488341AA3D99E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40FC2EE45BBF2F1AAB7C8C7B /* Pods_ProgressBarSv.framework */,
+				8B16243FF1C4795859AD055C /* Pods_ProgressBarSv_ProgressBarSvUITests.framework */,
+				5D7255FCA37E076BF7ECA5F7 /* Pods_ProgressBarSvTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4B8DEBFC260DEFD300057612 /* Build configuration list for PBXNativeTarget "ProgressBarSv" */;
 			buildPhases = (
+				18A4F38FC0BD20E6E129C209 /* [CP] Check Pods Manifest.lock */,
 				4B8DEBD0260DEFD200057612 /* Sources */,
 				4B8DEBD1260DEFD200057612 /* Frameworks */,
 				4B8DEBD2260DEFD200057612 /* Resources */,
+				533C2C5A8BAD79400CB2BC54 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +192,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4B8DEBFF260DEFD300057612 /* Build configuration list for PBXNativeTarget "ProgressBarSvTests" */;
 			buildPhases = (
+				46648DC59065AC652AFE04E6 /* [CP] Check Pods Manifest.lock */,
 				4B8DEBE4260DEFD300057612 /* Sources */,
 				4B8DEBE5260DEFD300057612 /* Frameworks */,
 				4B8DEBE6260DEFD300057612 /* Resources */,
@@ -167,9 +211,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4B8DEC02260DEFD300057612 /* Build configuration list for PBXNativeTarget "ProgressBarSvUITests" */;
 			buildPhases = (
+				E500002704124EE2401E7863 /* [CP] Check Pods Manifest.lock */,
 				4B8DEBEF260DEFD300057612 /* Sources */,
 				4B8DEBF0260DEFD300057612 /* Frameworks */,
 				4B8DEBF1260DEFD300057612 /* Resources */,
+				18CF018BB443CD4D2DF57101 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -250,6 +296,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18A4F38FC0BD20E6E129C209 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProgressBarSv-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		18CF018BB443CD4D2DF57101 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProgressBarSv-ProgressBarSvUITests/Pods-ProgressBarSv-ProgressBarSvUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProgressBarSv-ProgressBarSvUITests/Pods-ProgressBarSv-ProgressBarSvUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ProgressBarSv-ProgressBarSvUITests/Pods-ProgressBarSv-ProgressBarSvUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46648DC59065AC652AFE04E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProgressBarSvTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		533C2C5A8BAD79400CB2BC54 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProgressBarSv/Pods-ProgressBarSv-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProgressBarSv/Pods-ProgressBarSv-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ProgressBarSv/Pods-ProgressBarSv-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E500002704124EE2401E7863 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProgressBarSv-ProgressBarSvUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4B8DEBD0260DEFD200057612 /* Sources */ = {
@@ -430,6 +579,7 @@
 		};
 		4B8DEBFD260DEFD300057612 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A0CCC353FE8C566BB692180 /* Pods-ProgressBarSv.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +597,7 @@
 		};
 		4B8DEBFE260DEFD300057612 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C0C9CD94D5F1FA36D5CDA6E /* Pods-ProgressBarSv.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +615,7 @@
 		};
 		4B8DEC00260DEFD300057612 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 391A391E103074521CCDC758 /* Pods-ProgressBarSvTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +636,7 @@
 		};
 		4B8DEC01260DEFD300057612 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C22594642D7FEE18EE3303D4 /* Pods-ProgressBarSvTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +657,7 @@
 		};
 		4B8DEC03260DEFD300057612 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFD4B124F326E63B97AFD2ED /* Pods-ProgressBarSv-ProgressBarSvUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +677,7 @@
 		};
 		4B8DEC04260DEFD300057612 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9834AF58E56CA4BB1A15BDB8 /* Pods-ProgressBarSv-ProgressBarSvUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
