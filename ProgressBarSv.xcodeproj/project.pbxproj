@@ -3,17 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		4B8DEBD8260DEFD200057612 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DEBD7260DEFD200057612 /* AppDelegate.swift */; };
-		4B8DEBDA260DEFD200057612 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DEBD9260DEFD200057612 /* ViewController.swift */; };
+		4B8DEBDA260DEFD200057612 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DEBD9260DEFD200057612 /* MainViewController.swift */; };
 		4B8DEBDD260DEFD200057612 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B8DEBDB260DEFD200057612 /* Main.storyboard */; };
 		4B8DEBDF260DEFD300057612 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B8DEBDE260DEFD300057612 /* Assets.xcassets */; };
 		4B8DEBE2260DEFD300057612 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B8DEBE0260DEFD300057612 /* LaunchScreen.storyboard */; };
 		4B8DEBED260DEFD300057612 /* ProgressBarSvTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DEBEC260DEFD300057612 /* ProgressBarSvTests.swift */; };
 		4B8DEBF8260DEFD300057612 /* ProgressBarSvUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DEBF7260DEFD300057612 /* ProgressBarSvUITests.swift */; };
+		4BD8616F26119FC1009BC1A1 /* DownloadData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD8616E26119FC1009BC1A1 /* DownloadData.swift */; };
+		4BD861762611AB1E009BC1A1 /* songs.json in Resources */ = {isa = PBXBuildFile; fileRef = 4BD861752611AB1E009BC1A1 /* songs.json */; };
+		4BD861792611B15F009BC1A1 /* DownLoadSongsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD861782611B15F009BC1A1 /* DownLoadSongsViewController.swift */; };
+		4BD8617B2611B177009BC1A1 /* DownLoadSongsViewControllerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD8617A2611B177009BC1A1 /* DownLoadSongsViewControllerTableViewCell.swift */; };
+		4BD8617E2611B1BE009BC1A1 /* DownLoadSongs.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BD8617D2611B1BE009BC1A1 /* DownLoadSongs.storyboard */; };
+		4BD861812611B26C009BC1A1 /* DisplaySongs.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BD861802611B26C009BC1A1 /* DisplaySongs.storyboard */; };
 		62E792E08E27B7069DCDC12F /* Pods_ProgressBarSv.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40FC2EE45BBF2F1AAB7C8C7B /* Pods_ProgressBarSv.framework */; };
 		C4AE7AD9710CE3355C024235 /* Pods_ProgressBarSv_ProgressBarSvUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B16243FF1C4795859AD055C /* Pods_ProgressBarSv_ProgressBarSvUITests.framework */; };
 		D9417E529973F6C682282C1A /* Pods_ProgressBarSvTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D7255FCA37E076BF7ECA5F7 /* Pods_ProgressBarSvTests.framework */; };
@@ -42,7 +48,7 @@
 		40FC2EE45BBF2F1AAB7C8C7B /* Pods_ProgressBarSv.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProgressBarSv.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B8DEBD4260DEFD200057612 /* ProgressBarSv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgressBarSv.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B8DEBD7260DEFD200057612 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4B8DEBD9260DEFD200057612 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4B8DEBD9260DEFD200057612 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		4B8DEBDC260DEFD200057612 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4B8DEBDE260DEFD300057612 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B8DEBE1260DEFD300057612 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,6 +59,12 @@
 		4B8DEBF3260DEFD300057612 /* ProgressBarSvUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProgressBarSvUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B8DEBF7260DEFD300057612 /* ProgressBarSvUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarSvUITests.swift; sourceTree = "<group>"; };
 		4B8DEBF9260DEFD300057612 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BD8616E26119FC1009BC1A1 /* DownloadData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadData.swift; sourceTree = "<group>"; };
+		4BD861752611AB1E009BC1A1 /* songs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = songs.json; sourceTree = "<group>"; };
+		4BD861782611B15F009BC1A1 /* DownLoadSongsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownLoadSongsViewController.swift; sourceTree = "<group>"; };
+		4BD8617A2611B177009BC1A1 /* DownLoadSongsViewControllerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownLoadSongsViewControllerTableViewCell.swift; sourceTree = "<group>"; };
+		4BD8617D2611B1BE009BC1A1 /* DownLoadSongs.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DownLoadSongs.storyboard; sourceTree = "<group>"; };
+		4BD861802611B26C009BC1A1 /* DisplaySongs.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DisplaySongs.storyboard; sourceTree = "<group>"; };
 		5D7255FCA37E076BF7ECA5F7 /* Pods_ProgressBarSvTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProgressBarSvTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A0CCC353FE8C566BB692180 /* Pods-ProgressBarSv.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProgressBarSv.debug.xcconfig"; path = "Target Support Files/Pods-ProgressBarSv/Pods-ProgressBarSv.debug.xcconfig"; sourceTree = "<group>"; };
 		8B16243FF1C4795859AD055C /* Pods_ProgressBarSv_ProgressBarSvUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProgressBarSv_ProgressBarSvUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,7 +111,6 @@
 				391A391E103074521CCDC758 /* Pods-ProgressBarSvTests.debug.xcconfig */,
 				C22594642D7FEE18EE3303D4 /* Pods-ProgressBarSvTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -128,9 +139,10 @@
 		4B8DEBD6260DEFD200057612 /* ProgressBarSv */ = {
 			isa = PBXGroup;
 			children = (
+				4BD861702611A997009BC1A1 /* Model */,
+				4BD861712611A9A2009BC1A1 /* View */,
+				4BD861722611A9BD009BC1A1 /* Controller */,
 				4B8DEBD7260DEFD200057612 /* AppDelegate.swift */,
-				4B8DEBD9260DEFD200057612 /* ViewController.swift */,
-				4B8DEBDB260DEFD200057612 /* Main.storyboard */,
 				4B8DEBDE260DEFD300057612 /* Assets.xcassets */,
 				4B8DEBE0260DEFD300057612 /* LaunchScreen.storyboard */,
 				4B8DEBE3260DEFD300057612 /* Info.plist */,
@@ -154,6 +166,59 @@
 				4B8DEBF9260DEFD300057612 /* Info.plist */,
 			);
 			path = ProgressBarSvUITests;
+			sourceTree = "<group>";
+		};
+		4BD861702611A997009BC1A1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4BD8616E26119FC1009BC1A1 /* DownloadData.swift */,
+				4BD861752611AB1E009BC1A1 /* songs.json */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4BD861712611A9A2009BC1A1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4B8DEBDB260DEFD200057612 /* Main.storyboard */,
+				4BD8617F2611B1C5009BC1A1 /* DisplaySongs */,
+				4BD8617C2611B19B009BC1A1 /* DownloadSongs */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4BD861722611A9BD009BC1A1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4B8DEBD9260DEFD200057612 /* MainViewController.swift */,
+				4BD861772611B0C9009BC1A1 /* DownLoadSongs */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4BD861772611B0C9009BC1A1 /* DownLoadSongs */ = {
+			isa = PBXGroup;
+			children = (
+				4BD861782611B15F009BC1A1 /* DownLoadSongsViewController.swift */,
+				4BD8617A2611B177009BC1A1 /* DownLoadSongsViewControllerTableViewCell.swift */,
+			);
+			path = DownLoadSongs;
+			sourceTree = "<group>";
+		};
+		4BD8617C2611B19B009BC1A1 /* DownloadSongs */ = {
+			isa = PBXGroup;
+			children = (
+				4BD8617D2611B1BE009BC1A1 /* DownLoadSongs.storyboard */,
+			);
+			path = DownloadSongs;
+			sourceTree = "<group>";
+		};
+		4BD8617F2611B1C5009BC1A1 /* DisplaySongs */ = {
+			isa = PBXGroup;
+			children = (
+				4BD861802611B26C009BC1A1 /* DisplaySongs.storyboard */,
+			);
+			path = DisplaySongs;
 			sourceTree = "<group>";
 		};
 		83D5A4D81B488341AA3D99E0 /* Frameworks */ = {
@@ -277,7 +342,10 @@
 			files = (
 				4B8DEBE2260DEFD300057612 /* LaunchScreen.storyboard in Resources */,
 				4B8DEBDF260DEFD300057612 /* Assets.xcassets in Resources */,
+				4BD8617E2611B1BE009BC1A1 /* DownLoadSongs.storyboard in Resources */,
 				4B8DEBDD260DEFD200057612 /* Main.storyboard in Resources */,
+				4BD861812611B26C009BC1A1 /* DisplaySongs.storyboard in Resources */,
+				4BD861762611AB1E009BC1A1 /* songs.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,8 +473,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B8DEBDA260DEFD200057612 /* ViewController.swift in Sources */,
+				4BD8617B2611B177009BC1A1 /* DownLoadSongsViewControllerTableViewCell.swift in Sources */,
+				4BD8616F26119FC1009BC1A1 /* DownloadData.swift in Sources */,
+				4B8DEBDA260DEFD200057612 /* MainViewController.swift in Sources */,
 				4B8DEBD8260DEFD200057612 /* AppDelegate.swift in Sources */,
+				4BD861792611B15F009BC1A1 /* DownLoadSongsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
