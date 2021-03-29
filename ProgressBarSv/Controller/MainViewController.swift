@@ -13,12 +13,11 @@ class MainViewController: UIViewController {
     @IBOutlet weak var downloadVideo: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        DownloadData.shared.parseSongs()
     }
-    
+    // Button Function to download video from the link and store to gallery.
     @IBAction func downLoadVideoButton(_ sender: UIButton) {
         SVProgressHUD.show(withStatus: "\nDownloading Video")
-        let sampleURL = DownloadLinks.shared.link2
+        let sampleURL = DownloadData.shared.link2
         DispatchQueue.global(qos: .background).async {
             if let url = URL(string: sampleURL), let urlData = NSData(contentsOf: url) {
                 let galleryPath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0];
